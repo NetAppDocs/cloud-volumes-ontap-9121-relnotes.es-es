@@ -515,7 +515,6 @@ Parejas DE ALTA disponibilidad: 18 en un nodo ^1^</block>
   <block id="4f9154c68af93dc525373bf1a9c2edce" category="section-title">Límites de archivos y volúmenes</block>
   <block id="8e79313a5b6fb51ae3e76e64449c9f1d" category="cell">Profundidad de clonación jerárquica hacia 1</block>
   <block id="16b3ee4e5301a5f3f5b55816b3906b83" category="summary">En estas notas de la versión, se describen las nuevas funciones, las limitaciones y los problemas conocidos de Cloud Volumes ONTAP 9.12.1.</block>
-  <block id="f27b112d1527e5f29f0e8f510d779a5e" category="doc">Notas de la versión de Cloud Volumes ONTAP 9.12.1</block>
   <block id="fa082ab1a05e05550971e6e5f583dcfe" category="summary">Se admiten varias configuraciones de Cloud Volumes ONTAP en AWS.</block>
   <block id="8bb0da4c260f565e0c8162ea9c2b7caa" category="doc">Configuraciones compatibles en AWS</block>
   <block id="7db0f9060b8b2def82346add7b8e89c0" category="section-title">Número de nodos admitido</block>
@@ -693,7 +692,6 @@ Parejas DE ALTA disponibilidad: 18 en un nodo ^1^</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunidad de NetApp</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">Blog de BlueXP</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Seminarios web sobre el cloud</block>
-  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">Página principal de las notas de la versión</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">AWS</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="sidebar">Azure</block>
   <block id="482723983a4f2af954e36ff41e567451" category="sidebar">Limitaciones conocidas</block>
@@ -745,4 +743,7 @@ Parejas DE ALTA disponibilidad: 18 en un nodo ^1^</block>
   <block id="2736491b0d91473289e42f092b1bf7a8" category="paragraph">El parche 9.12.1 P14 ya está disponible para Cloud Volumes ONTAP para todos los proveedores de cloud. BlueXP le solicitará que actualice sus sistemas existentes a esta versión de revisión.</block>
   <block id="c476446cae3f83bea1b304ddc122e040" category="inline-link-macro">Consulte la lista de errores solucionados en la revisión P14</block>
   <block id="7f6bf3f591ebcac8172644473a861a3f" category="paragraph"><block ref="097760c954c4bdbaccfb64f476a75d11" category="inline-link-macro-rx"></block> (Se requiere inicio de sesión en el sitio de soporte de NetApp).</block>
+  <block id="4456e8c89e1ffcba3d0176f270fe18fb" category="doc">Notas de la versión de Cloud Volumes ONTAP 9.12.1</block>
+  <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">Limitaciones del uso de extensiones de Azure VM</block>
+  <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAP no es compatible con las extensiones de máquinas virtuales de Azure ni con aplicaciones de máquinas virtuales en una implementación. El uso de Cloud Volumes ONTAP en Azure con extensiones de VM provoca retrasos en las operaciones y NetApp recomienda evitarlos.</block>
 </blocks>
